@@ -9,7 +9,7 @@ import jakarta.validation.constraints.NotNull;
 public class Admin {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.Identity)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     @NotNull
